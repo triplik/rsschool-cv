@@ -1,5 +1,5 @@
 # rsschool-cv
 https://triplik.github.io/rsschool-cv/
-this is my io.   this new
+https://triplik.github.io/rsschool-cv/cv
 
 
