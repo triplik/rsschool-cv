@@ -1,33 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta http-equiv="Content-Type" content="text/html"> 
-    <meta charset UTF-8>
-    <link rel="stylessheet" type="text/css" href="style.css">
     <head>
-            <title>My CV</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>My CV</title>
     </head>
 
     <body>
-        <p>
+        <div class="wrapper">
 
-        </p>
-        <h1>Tereshonok Alexander</h1>
-        <h2>Skills</h2>
-        <P>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GiHub</li>
-            </ul>
-        </P> 
-        <h2>Language</h2>  
-        <p>
-            <ol>
-                <li>Russian 100%</li>
-                <li>English 10%</li>
-                <li>Belarus 80%</li>
-            </ol>
-        </p>   
-    </body>
+            <header>
+                <nav class="nav">
+                    <ul class="navlist">
+                        <li class="navli"><a class="navlink" href="#Language">Language</a></li>
+                        <li class="navli"><a class="navlink" href="#Education">Education</a></li>
+                        <li class="navli"><a class="navlink" href="#Skills">Skills</a></li>
+                        <li class="navli"><a class="navlink" href="#Contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <header>
+                    <h1 class="h1">Tereshonok Alexander</h1>
+                </header>
+        
+                <figure>
+                    <h2 class="h2">My Photo</h2>
+                    <div>
+                        <img class="photosize" src="temp_upload_0.jpg" alt=" This my Photo">
+                    </div>
+                </figure>
+
+                <section>
+                    <div class="language" id="Language">
+                        <h2>Language</h2>  
+                        <ol>
+                            <li>Russian 100%</li>
+                            <li>English 10%</li>
+                            <li>Belarus 80%</li>
+                        </ol>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="skills" id="Skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>GitHub</li>
+                            <li>Aircraft</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="education" id="Education">
+                        <h2>Education</h2>
+                        <p>High education BSAA, ended in 2018.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="Contacts">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li class="contactslist">Minsk, Belarus</li>
+                            <li class="contactslist"><a href="https://t.me/Alexander_Tserashonak">tg/Alexander_Tserashonak</a></li>
+                            <li class="contactslist"><a href="https://triplik27@gmail.com">@triplik27</a></li>
+                            <li class="contactslist">+375 29 216 62 88</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <p class="p">Hello, my name is Alexander Tserashonak,</p>
+                </section>
+        
+            </main>
+        
+            <footer>
+                <div class="footer">
+                    <a class="gitfooterlink" href https://github.com/triplik>
+                        <img class="gitfooterimg" src="unnamed.png" alt="My GitHub">
+                        <p>GitHub</p>
+                    </a>
+                
+                    <time>
+                    <p class="data"><b>2022 06 14</b></p>
+                    </time>
+
+                    <a href="https://rs.school/js/">
+				        <img class="rslogo" src="rslogo.png" alt="RS School logo">
+			        </a>
+                </div>
+            </footer>
+        
+        </div>
+    </body>    
 </html>
